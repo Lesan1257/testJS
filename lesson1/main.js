@@ -14,13 +14,13 @@ var appData = {
      income: []
 }
 var answer1 = prompt('как дела?');
-var answer2 = prompt('Привет');
+
 
 appData.expenses = {
-   answer1: answer2
+     answer1: prompt('Привет')
 }
 
-alert('Ваш бюджет на 1 день = ' + (money)/30 + ' рубля(ей)');
+alert('Ваш бюджет на 1 день = ' + (money) / 30 + ' рубля(ей)');
 
 
 console.log(appData);
