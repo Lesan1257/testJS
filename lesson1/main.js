@@ -1,5 +1,5 @@
 'use strict'
-
+// js 
 var time = prompt('Введите дату в формате YYYY-MM-DD', 'YYYY-MM-DD');
 var money = +prompt('Ваш бюджет на месяц?', 100);
 
